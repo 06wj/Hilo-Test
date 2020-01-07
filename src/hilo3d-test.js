@@ -1,4 +1,5 @@
 import * as Hilo3d from 'hilo3d';
+import * as OrbitControls from 'hilo3d/examples/js/OrbitControls';
 import ticker from './ticker';
 
 const camera = new Hilo3d.PerspectiveCamera({
@@ -34,3 +35,8 @@ stage.addChild(new Hilo3d.AmbientLight({
 }));
 
 ticker.addTick(stage);
+
+const orbitControls = new OrbitControls(stage, {
+    isLockMove: true,
+    isLockZ: true
+});
