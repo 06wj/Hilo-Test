@@ -1,6 +1,7 @@
 import * as Hilo from 'hilojs';
 import ticker from './ticker';
 
+console.log(`Hilo version: ${Hilo.version}`);
 const stage = new Hilo.Stage({
     container:document.querySelector('#hiloContainer'),
     width: innerWidth,
