@@ -39,12 +39,6 @@ module.exports = {
   mode: 'development',
   entry: './index.js',
 
-  plugins: [new webpack.ProgressPlugin(), new workboxPlugin.GenerateSW({
-        swDest: 'sw.js',
-        clientsClaim: true,
-        skipWaiting: false,
-      })],
-
   module: {
     rules: [{
       test: /.(js|jsx)$/,
