@@ -13,7 +13,8 @@
   "license": "MIT",
   "dependencies": {
     "hilo3d": "^1.13.46",
-    "hilojs": "^2.0.0"
+    "hilojs": "^2.0.0",
+    "seinjs": "^1.5.17"
   },
   "devDependencies": {
     "webpack": "^4.41.5",

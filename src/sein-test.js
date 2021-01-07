@@ -1,0 +1,1 @@
+import sein from 'seinjs';
