@@ -1,1 +1,3 @@
-import sein from 'seinjs';
+import * as Sein from 'seinjs';
+
+window.Sein = Sein;

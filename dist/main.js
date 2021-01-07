@@ -208,7 +208,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var hilo
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var seinjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! seinjs */ \"./node_modules/_seinjs@1.5.17@seinjs/lib/seinjs.es.js\");\n\n\n//# sourceURL=webpack:///./src/sein-test.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var seinjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! seinjs */ \"./node_modules/_seinjs@1.5.17@seinjs/lib/seinjs.es.js\");\n\n\nwindow.Sein = seinjs__WEBPACK_IMPORTED_MODULE_0__;\n\n//# sourceURL=webpack:///./src/sein-test.js?");
 
 /***/ }),
 
